@@ -3,19 +3,19 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:background="@color/globalWhite"
     android:layout_height="wrap_content">
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/news_swipe_refresh_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:background="@android:color/white">
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/lv_news"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:dividerHeight="0dp"
             android:divider="@null"/>
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
     <LinearLayout
         android:id="@+id/ll_news_no_data"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="40dp"/>
     </LinearLayout>
-    <android.support.v4.widget.ContentLoadingProgressBar
+    <androidx.core.widget.ContentLoadingProgressBar
         android:id="@+id/loading_view"
         style="?android:attr/progressBarStyleSmall"
         android:layout_width="wrap_content"

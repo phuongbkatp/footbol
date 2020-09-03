@@ -1,1 +1,5 @@
+include ':SocialAuth'
+include ':ads'
+include ':sofa_library'
+include ':fbvn_api'
 include ':app'

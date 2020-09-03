@@ -6,7 +6,7 @@
     android:background="@color/header_color"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height"
@@ -44,7 +44,7 @@
                 app:strokeColor="@color/globalWhite" />
         </RelativeLayout>
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
     <FrameLayout
         android:id="@+id/view_content"
         android:layout_width="match_parent"
